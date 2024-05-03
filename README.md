@@ -52,3 +52,43 @@ Este comando guadara todos los cambios hechos en los archivos del area de staged
 **HEAD.-**
 HEAD ( es com un faro ) este puntero sirve a GIT para saber 
 en que rama estamos en cada momento.
+## CLASE 2
+**RAMAS.-**
+Una rama es una version de la coleccion de directorios y archivos del repositorio 
+con cada rama, 
+
+se crea una copia de la coleccion de archivos actual.
+
+Se podria decir que se crean diferentes copias donde el grupo de programadores
+
+trabajan en diferentes partes del proyecto.
+
+Las ramas nos permitiran a trabajar para resolver problemas especificos 
+en el proyecto
+
+**COMANDOS CON RAMAS**
+
+**git branch <nombre_rama>.-**
+Ese comando nos permite crear,listar y renombrar ramas 
+
+`git branch`
+
+**git switch <nombre-rama>.-**
+El comando nos permite cambiar de rama y poder movernos entre 
+
+las existentes
+
+`git switch`
+
+Para realizar ambos pasos al mismo tiempo(crear rama y moverse a ese rama)
+
+`git switch -c <nombre-rama>`
+
+**git checkout**
+
+El comando nos ayuda a cambiar entre ramas y restaura directorio de trabajo
+
+`git checkout`
+
+
+
