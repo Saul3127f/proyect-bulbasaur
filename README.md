@@ -190,4 +190,6 @@ Para realizar ese trabajo se usa el comando git branch -D nombre-rama
 
 `git branch -d <nombre_rama>`
 
-pero antes de eliminar una rama es mejor tener cuidado p
+pero antes de eliminar una rama es mejor revisar si las ramas fueron 
+
+fusionadas correctamente porque suele pasar que no 
