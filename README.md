@@ -232,3 +232,29 @@ con la ayuda del siguiente comando se podra crear la rama remota
 
 >si la rama no existe de manera local existira un error 
 
+## CLASE 4
+
+**git pull**
+
+El git pull es un comando que nos permite descargar el contenido de un
+
+repositorio remoto lo cual nos permite extraer todo el contenido 
+
+de ese repositorio remoto y actualizar nuestro repositorio local.
+
+>Un git merge se puede ver como dos comandos juntos un git fetch el cual descargara 
+
+>el contenido de la rama principal y con un git merge las fusionara
+
+**pull request**
+
+El git request es una funcionalidad de github la cual permite revisar los cambios realizados
+
+en alguna rama del repositorio antes de realizar un git merge o fusionar las ramas
+
+**Consejos antes de realizar un pull request**
+
+ * Lee el archivo contributing.md el cual te dara un pantallazo de como trabajar en el repositorio
+ * Procura que tu aporte sea lo mas parecido al trabajo original 
+ * Enfoca tu ayuda en una parte en concreto
+ * Redacta en tu pull request muy especifico de que es los cambios que realizaste
