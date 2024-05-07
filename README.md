@@ -186,10 +186,49 @@ Al finalizar la fusion de las ramas lo mejor es eliminar la rama que
 
 fusionamos con la main para asi no tener ramas libres.
 
-Para realizar ese trabajo se usa el comando git branch -D nombre-rama
+Para realizar ese trabajo se usa el comando git branch -d nombre-rama
 
 `git branch -d <nombre_rama>`
 
 pero antes de eliminar una rama es mejor revisar si las ramas fueron 
 
-fusionadas correctamente porque suele pasar que no 
+fusionadas correctamente porque suele pasar que puedes eliminar
+
+horas de trabajo, por suerte git te notificara en ese caso.
+
+>El comando git branch -D elimina la rama directamente
+
+>El comando git branch -d te notificara si eliminar la rama tiene riesgos
+
+## CLASE 3
+
+**GITHUB**
+
+Github es un servicio en la nube especializado en el control de versiones
+
+de git, son completamente diferentes.
+
+**Repositorios remotos**
+
+Un repositorio remoto es simplemente una version de tu repositorio que se 
+
+encuentran en internet.
+
+**git push**
+
+El comando nos permite subir todos los cambios que hicimos al repositorio local
+
+al repositorio remoto asi tener ambos repositorios conectados y actualizados
+
+`git push <origin><main>`
+
+**Crear ramas remotas**
+
+Para crear un rama remota es primordial primero crear una rama local luego
+
+con la ayuda del siguiente comando se podra crear la rama remota
+
+`git push <origin> <nombre_rama>`
+
+>si la rama no existe de manera local existira un error 
+
