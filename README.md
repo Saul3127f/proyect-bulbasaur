@@ -226,6 +226,10 @@ Un repositorio remoto es simplemente una version de tu repositorio que se
 
 encuentran en internet.
 
+**git clone**
+
+Clona un repositorio remoto y se hace una copia local del repositorio remoto
+
 **git push**
 
 El comando nos permite subir todos los cambios que hicimos al repositorio local
@@ -294,3 +298,14 @@ en alguna rama del repositorio antes de realizar un git merge o fusionar las ram
  * Procura que tu aporte sea lo mas parecido al trabajo original 
  * Enfoca tu ayuda en una parte en concreto
  * Redacta en tu pull request muy especifico de que es los cambios que realizaste
+  
+## CLASE 5
+
+**FLujo de trabajo**
+
+Un flujo de trabajo se puede entender como una recomendacion sobre como llevar un proyecto o
+
+dicho de otra forma la manera que se trabajara.
+
+**Formas de flujo de trabajo**
+
