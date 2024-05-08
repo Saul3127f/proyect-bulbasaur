@@ -49,6 +49,10 @@ Este comando guadara todos los cambios hechos en los archivos del area de staged
 
 `git commit`
 
+**git log**
+
+Comando que muestra todos los commits realizados hasta el momento
+
 **HEAD.-**
 HEAD ( es com un faro ) este puntero sirve a GIT para saber 
 en que rama estamos en cada momento.
@@ -221,6 +225,30 @@ El comando nos permite subir todos los cambios que hicimos al repositorio local
 al repositorio remoto asi tener ambos repositorios conectados y actualizados
 
 `git push <origin><main>`
+
+**git push -f**
+
+Este comando forsa la actualizacion de una rama remota evitando todas las 
+
+advertencias.
+
+**git push --all**
+
+El comando actualiza todas las ramas que trabajamos en el repositorio local
+
+al repositorio remoto.
+
+**git push -u**
+
+El comando ayuda a simplificar el trabajo de maner que en el siguiente push 
+
+solo ponemos git push y ya reconocera a que rama nos referimos.
+
+**git push --delete**
+
+El comando git push -delete ayuda a eliminar ramas remotas
+
+`git push origin --delete main`
 
 **Crear ramas remotas**
 
