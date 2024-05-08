@@ -53,6 +53,14 @@ Este comando guadara todos los cambios hechos en los archivos del area de staged
 
 Comando que muestra todos los commits realizados hasta el momento
 
+**git --help**
+
+El comando que nos permite acceder a la documentacion de determinado comando
+
+y poder ver todas las opciones que nos permite el comando
+
+`git <comando> --help`
+
 **HEAD.-**
 HEAD ( es com un faro ) este puntero sirve a GIT para saber 
 en que rama estamos en cada momento.
