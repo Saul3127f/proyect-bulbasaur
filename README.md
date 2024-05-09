@@ -238,6 +238,10 @@ al repositorio remoto asi tener ambos repositorios conectados y actualizados
 
 `git push <origin><main>`
 
+**git branch -a**
+
+El comando nos permite listar todas las ramas remotas que tenemos en un repositorio
+
 **git push -f**
 
 Este comando forsa la actualizacion de una rama remota evitando todas las 
@@ -270,7 +274,13 @@ con la ayuda del siguiente comando se podra crear la rama remota
 
 `git push <origin> <nombre_rama>`
 
->si la rama no existe de manera local existira un error 
+>si la rama no existe de manera local existira un error
+
+**git push origin -d <nombre-rama>**
+
+El comando nos permitara eliminar ramas remotas el comando solo sirve con 
+
+ramas remotas para ramas locales existe otro comando que nos ayuda.
 
 ## CLASE 4
 
@@ -309,3 +319,4 @@ dicho de otra forma la manera que se trabajara.
 
 **Formas de flujo de trabajo**
 
+* gitflow.-

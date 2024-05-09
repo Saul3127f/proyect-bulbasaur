@@ -1,0 +1,83 @@
+[33mcommit c3696f8a21d99d6bd00e6694af8c53fefd2ffab8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Wed May 8 14:33:22 2024 -0400
+
+    Se añadio poca informacion de la clase 5
+    pero se añadio unos comandos
+
+[33mcommit 62137e06a0373d26c617b51e3b3d289e6d305a2a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Wed May 8 10:32:44 2024 -0400
+
+    Se añadio dos comandos al README
+
+[33mcommit 3064bf76c5d77ac414efd47c1bf8d03ab17c50b3[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Tue May 7 21:33:56 2024 -0400
+
+    Se añadio comandos faltantes al git push
+    y tambien un comando perteneciente a la
+    primera clase
+
+[33mcommit ef3f5ba49d83b53b50b3536fc41eee3267d07aa7[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Tue May 7 14:07:40 2024 -0400
+
+    Se añadio todo lo referente a la clase 4 sobre git
+    pull y pull request
+
+[33mcommit c47c6d1fabbf7156b4988731e4cbac15a81eb664[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Mon May 6 20:12:41 2024 -0400
+
+    Se complemento todo respecto a la ultima clase
+    de github
+
+[33mcommit f5f0ab10c3298e858134583b23f216f1bd733976[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Mon May 6 18:16:14 2024 -0400
+
+    se esta por terminar la parte de conflictos
+    y se elimino la rama login en la que se trabajaba
+
+[33mcommit 255f335be9423ca3e561642e7017113a85b1fd6c[m
+Merge: 9921700 d7f5039
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Mon May 6 18:13:49 2024 -0400
+
+    Merge branch 'login'
+
+[33mcommit 9921700f6aeaa355f3d21c4d3f9352bfd9523f5b[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Mon May 6 16:29:05 2024 -0400
+
+    Se añadio todo lo referente a ramas en relacion a
+    git
+
+[33mcommit d7f50398251f8df28b871296f25081bc192c4dc9[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Fri May 3 16:11:44 2024 -0400
+
+    se añadio toda la informacion de la clase 2(ramas
+    y comandos para el uso de ramas)
+    y cambios esteticos
+
+[33mcommit 7d76d50eb438681708eacc9ec755bd589a65e087[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Fri May 3 15:08:52 2024 -0400
+
+    solo guardar algunos archivos que puse de prueba
+
+[33mcommit 65269f46d35da713ad7e1af382229d53b8b61fb3[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Wed May 1 10:44:39 2024 -0400
+
+    Se añadio toda la informacion de la primera clase
+    de git desde conceptos hasta los comandos basicos
+
+[33mcommit e71772a63bd30d47627be7a541d46ab031eda4f0[m
+Author: Saul <saulcordovavill@gmail.com>
+Date:   Tue Apr 30 22:30:45 2024 -0400
+
+    se hiso la prueba de como funciona git y los
+    primeros comandos
