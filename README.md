@@ -326,3 +326,36 @@ dicho de otra forma la manera que se trabajara.
     * Ship.- Sube los cambios a la rama main sin consultarlo.
     * Show.- Se crea una pull request y se revisa antes de fusionar los cambios con el main.
     * Ask .- Se consulta con el equipo antes de subir toda la informacion al grupo se usa mas con temas mas delicados o que dudamos de nuestras soluciones.
+
+## Clase 7
+
+### Deshacer cambios
+
+Deshacer cambios es una parte muy importante de un proyecto en git ya que suele pasar que realizamos algunos cambios incorrectos en 
+
+el repositorio remoto por lo que es necesario volver a un punto donde todo funcionaba.
+
+Existen dos formas de deshacer cambios una son las contructivasy otras las constructivas.
+
+**git reset**
+
+El comando git reset tiene dos versiones las cuales son:
+
+**git reset soft:** El comando nos permite regresar a un commit pasado sin deshacer los cambios actuales, los cambios posteriores al 
+
+commit que nos movimos pasaran al estado staged. Ya de ahi se elige que cambios se mantienen.
+
+**git reset hard:** El comando git reset hard a diferencia del soft deshace todos los cambios hasta el commit que no moveremos.
+
+`git reset hard/soft <id del commit>`
+
+o
+
+`git reset hard/soft HEAD~<numero de commits que retrosederemos>`
+
+**git revert:** El comando git revert deshace los cambios realizados en un repositorio y crea un commit completamente nuevo de los cambios de esta manera no se altera el historial de commits del repositorio remoto grupal.
+
+**git checkout:** Al igual que ayuda a navegar entre ramas el comando ayuda a deshacer cambios en un commit.
+
+
+
