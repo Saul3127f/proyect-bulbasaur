@@ -22,7 +22,7 @@ Un respositorio puede verse como una carpeta que almacena las diferentes version
 -commited.
 
 **Commits.-**
-Sirven para registrar cambios de los archivos
+Sirven para registrar cambios de los archivos.
 
 >Un commit es como guardar una partida en un videojuego si se equivoca se puede volver ahi
  
@@ -45,19 +45,19 @@ Mueve los cambios del directorio de trabajo al área del entorno de ensayo.
 `git add "Nombre del archivo"`
 
 **git commit.-**
-Este comando guadara todos los cambios hechos en los archivos del area de staged
+Este comando guadara todos los cambios hechos en los archivos del area de staged.
 
 `git commit`
 
 **git log**
 
-Comando que muestra todos los commits realizados hasta el momento
+Comando que muestra todos los commits realizados hasta el momento.
 
 **git --help**
 
 El comando que nos permite acceder a la documentacion de determinado comando
 
-y poder ver todas las opciones que nos permite el comando
+y poder ver todas las opciones que nos permite el comando.
 
 `git <comando> --help`
 
@@ -76,7 +76,7 @@ Se podria decir que se crean diferentes copias donde el grupo de programadores
 trabajan en diferentes partes del proyecto.
 
 Las ramas nos permitiran a trabajar para resolver problemas especificos 
-en el proyecto
+en el proyecto.
 
 **COMANDOS CON RAMAS**
 
@@ -94,17 +94,17 @@ cual nos encontramos ubicados.
 **git switch <nombre-rama>.-**
 El comando nos permite cambiar de rama y poder movernos entre 
 
-las existentes
+las existentes.
 
 `git switch`
 
-Para realizar ambos pasos al mismo tiempo(crear rama y moverse a ese rama)
+Para realizar ambos pasos al mismo tiempo(crear rama y moverse a ese rama).
 
 `git switch -c <nombre-rama>`
 
 **git checkout**
 
-El comando nos ayuda a cambiar entre ramas y restablecer cambios hechos en algunos archivos
+El comando nos ayuda a cambiar entre ramas y restablecer cambios hechos en algunos archivos.
 
 `git checkout`
 
@@ -114,7 +114,7 @@ La accion de fusionar ramas nos permite fusionar los cambios
 
 que realizamos en cada rama, de forma que los cambios que hicimos en una rama 
 
-tambien estaran presentes en otra rama
+tambien estaran presentes en otra rama.
 
 **git merge**
 
@@ -198,7 +198,7 @@ Al finalizar la fusion de las ramas lo mejor es eliminar la rama que
 
 fusionamos con la main para asi no tener ramas libres.
 
-Para realizar ese trabajo se usa el comando git branch -d nombre-rama
+Para realizar ese trabajo se usa el comando git branch -d nombre-rama.
 
 `git branch -d <nombre_rama>`
 
@@ -228,19 +228,19 @@ encuentran en internet.
 
 **git clone**
 
-Clona un repositorio remoto y se hace una copia local del repositorio remoto
+Clona un repositorio remoto y se hace una copia local del repositorio remoto.
 
 **git push**
 
 El comando nos permite subir todos los cambios que hicimos al repositorio local
 
-al repositorio remoto asi tener ambos repositorios conectados y actualizados
+al repositorio remoto asi tener ambos repositorios conectados y actualizados.
 
 `git push <origin><main>`
 
 **git branch -a**
 
-El comando nos permite listar todas las ramas remotas que tenemos en un repositorio
+El comando nos permite listar todas las ramas remotas que tenemos en un repositorio.
 
 **git push -f**
 
@@ -262,7 +262,7 @@ solo ponemos git push y ya reconocera a que rama nos referimos.
 
 **git push --delete**
 
-El comando git push -delete ayuda a eliminar ramas remotas
+El comando git push -delete ayuda a eliminar ramas remotas.
 
 `git push origin --delete main`
 
@@ -270,7 +270,7 @@ El comando git push -delete ayuda a eliminar ramas remotas
 
 Para crear un rama remota es primordial primero crear una rama local luego
 
-con la ayuda del siguiente comando se podra crear la rama remota
+con la ayuda del siguiente comando se podra crear la rama remota.
 
 `git push <origin> <nombre_rama>`
 
@@ -294,20 +294,20 @@ de ese repositorio remoto y actualizar nuestro repositorio local.
 
 >Un git merge se puede ver como dos comandos juntos un git fetch el cual descargara 
 
->el contenido de la rama principal y con un git merge las fusionara
+>el contenido de la rama principal y con un git merge las fusionara.
 
 **pull request**
 
 El git request es una funcionalidad de github la cual permite revisar los cambios realizados
 
-en alguna rama del repositorio antes de realizar un git merge o fusionar las ramas
+en alguna rama del repositorio antes de realizar un git merge o fusionar las ramas.
 
 **Consejos antes de realizar un pull request**
 
- * Lee el archivo contributing.md el cual te dara un pantallazo de como trabajar en el repositorio
- * Procura que tu aporte sea lo mas parecido al trabajo original 
- * Enfoca tu ayuda en una parte en concreto
- * Redacta en tu pull request muy especifico de que es los cambios que realizaste
+ * Lee el archivo contributing.md el cual te dara un pantallazo de como trabajar en el repositorio.
+ * Procura que tu aporte sea lo mas parecido al trabajo original.
+ * Enfoca tu ayuda en una parte en concreto.
+ * Redacta en tu pull request muy especifico de que es los cambios que realizaste.
   
 ## CLASE 5
 
@@ -319,4 +319,10 @@ dicho de otra forma la manera que se trabajara.
 
 **Formas de flujo de trabajo**
 
-* gitflow.-
+* gitflow.-Gitflow es un flujo de trabajo enfocado principalmente en el desarrollo bien organizado en ramas especializadas.
+* github flow.- Se centra en el uso de pull request para un mejor desarrollo y se permite trabajar en cuantas ramas se pueda.
+* Trunk Based Development.- Se trata de un flujo de trabajo que trabaja principalmente en la rama main siendo pocas las veces que opta .por crear ramas auxiliares.
+* Ship / Show / Ask.- Esta compuesta por tres partes las cuales estan en el nombre:
+    * Ship.- Sube los cambios a la rama main sin consultarlo.
+    * Show.- Se crea una pull request y se revisa antes de fusionar los cambios con el main.
+    * Ask .- Se consulta con el equipo antes de subir toda la informacion al grupo se usa mas con temas mas delicados o que dudamos de nuestras soluciones.
