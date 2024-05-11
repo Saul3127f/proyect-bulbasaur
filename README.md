@@ -15,13 +15,16 @@ Un respositorio puede verse como una carpeta que almacena las diferentes version
 
 **States**
 
--Modified.
+Los archivos en git pasan por tres estados principales
 
--Staged.
+* Modified:Los archivos de un repositorio fueron modificados 
 
--commited.
+* Staged: Los archivos estan en el area de staged cuando los cambios fueron confirmados
 
-**Commits.-**
+* Commited: Los archivos fueron actualizados en el repositorio y se creo un commit de los cambios realizados.
+
+**Commits**
+
 Sirven para registrar cambios de los archivos.
 
 >Un commit es como guardar una partida en un videojuego si se equivoca se puede volver ahi
@@ -44,7 +47,14 @@ Mueve los cambios del directorio de trabajo al área del entorno de ensayo.
 
 `git add "Nombre del archivo"`
 
-**git commit.-**
+De esta manera se suben los archivos de uno en uno al area de staged pero existe un comando que nos permite realizar los cambios de manera mas rapida
+
+`git add .`
+
+Este comando subira todos los archivos que estan en el area de modified al area de staged
+
+**git commit**
+
 Este comando guadara todos los cambios hechos en los archivos del area de staged.
 
 `git commit`
@@ -53,21 +63,30 @@ Este comando guadara todos los cambios hechos en los archivos del area de staged
 
 Comando que muestra todos los commits realizados hasta el momento.
 
+`git log`
+
 **git --help**
 
-El comando que nos permite acceder a la documentacion de determinado comando
+El comando que nos permite acceder a la documentacion  de determinado comando de modo de una pagina web
 
 y poder ver todas las opciones que nos permite el comando.
 
 `git <comando> --help`
 
-**HEAD**
-HEAD ( es com un faro ) este puntero sirve a GIT para saber 
-en que rama estamos en cada momento.
+Existe otro comando que nos permite ver una descripcion mas pequeña de un comando solo en la terminal
+
+`git <comando> -h`
+
+Este comando nos mostrara una pequeña descripcion del comando en la terminal.
+
+**Punteros**
+
+Los punteros en git son como unos faros nos indicaran en que rama estamos trabajando en la terminal se encuentran a lado del directorio donde estamos trabajando
+
 ## CLASE 2
 **RAMAS.-**
 Una rama es una version de la coleccion de directorios y archivos del repositorio 
-con cada rama, 
+con cada rama. 
 
 se crea una copia de la coleccion de archivos actual.
 
@@ -91,7 +110,8 @@ acceder a ver todas las ramas en el repositorio y ver en
 
 cual nos encontramos ubicados.
 
-**git switch <nombre-rama>.-**
+**git switch <nombre-rama>**
+
 El comando nos permite cambiar de rama y poder movernos entre 
 
 las existentes.
