@@ -61,7 +61,7 @@ y poder ver todas las opciones que nos permite el comando.
 
 `git <comando> --help`
 
-**HEAD.-**
+**HEAD**
 HEAD ( es com un faro ) este puntero sirve a GIT para saber 
 en que rama estamos en cada momento.
 ## CLASE 2
@@ -357,5 +357,24 @@ o
 
 **git checkout:** Al igual que ayuda a navegar entre ramas el comando ayuda a deshacer cambios en un commit.
 
+## Clase 8
 
+### Hocks, alias y trucos de git
 
+**Hocks**
+
+Un hock es una posibilidad de realizar un script en un momento determinado de git
+
+**Alias**
+
+Alias es una manera de simplificar comandos largos, ya que generaremos un "alias"
+para ese comando en especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo
+
+**Trucos de git**
+
+Algunos comandos pueden romar otra forma y facilitarnos las cosas en nuestro trabajo con git por ejemplo:
+
+* Recuperar un archivo de otra rama: `git checkout <SHA><archivo>`
+* Cambiar el nombre a un commit existente: `git commit --amend -m <descripcion commit>`
+* Guardar cambios temporales: `git stach`
+* Aplicar cambios a un commit: `git cherry-pick <SHA>`
