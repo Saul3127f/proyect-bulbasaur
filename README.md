@@ -326,6 +326,32 @@ dicho de otra forma la manera que se trabajara.
     * Ship.- Sube los cambios a la rama main sin consultarlo.
     * Show.- Se crea una pull request y se revisa antes de fusionar los cambios con el main.
     * Ask .- Se consulta con el equipo antes de subir toda la informacion al grupo se usa mas con temas mas delicados o que dudamos de nuestras soluciones.
+  
+## Clase 6
+
+### Buenas practicas de git
+
+**Commits**
+
+Un commit debe ser redactado muy a menudo esto permite tener varios puntos de guardado lo que nos ayudara a saber mejor en que punto hubo un error y asi arreglarlo
+
+**Redactar un buen commit**
+
+* Procurar escribir con verbos en imperativo
+* No usar punto final ni puntos suspencivos
+* Usar menos de 50 caracteres(ser lo mas breves posibles)
+* Usa una semantica especial para commits:
+  * fix:(tipo del cambio) se arreglo un bug(Descripcion del cambio) 
+
+**Nombres de ramas**
+
+Las ramas al igual que los commits deben ser claros para los que las usen procura usar nombres que describan que hace la rama
+
+Para mejor entendimiento usa un nombre que explique que se arregla en la rama:
+* feature: Ramas donde se desarrolla una nueva caracteristica 
+* hotfix: Rama donde se arreglas errores criticos
+* bug: Rama donde se cambia el codigo fuente para arreglar bugs.
+Al igual que esas existen algunas mas que ayudaran a un trabajo mas organizado.
 
 ## Clase 7
 
