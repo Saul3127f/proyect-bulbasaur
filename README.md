@@ -2,7 +2,9 @@
 ## CLASE 1  
 **CONCEPTOS BASICOS**
 
-**Control de versiones.-** El control de versiones es un sistema que registra cambios en un codigo fuente es importante por:
+**Control de versiones** 
+
+El control de versiones es un sistema que registra cambios en un codigo fuente es importante por:
 
 -Rendimiento.
 
@@ -10,7 +12,8 @@
 
 -Flexibilidad.
 
-**Repositorios.-**
+**Repositorios**
+
 Un respositorio puede verse como una carpeta que almacena las diferentes versiones de los ficheros de un proyecto.
 
 **States**
@@ -32,22 +35,27 @@ Sirven para registrar cambios de los archivos.
 
 **PRIMEROS COMANDOS**
 
-**git init.-**
+**git init**
+
 Inicializa o crea un nuevo repositorio en git.
 
 `git init`
 
-**git status.-**
+**git status**
+
 Muestra el estado de los archivos del repositorio.
 
 `git status`
 
-**git add.-**
+**git add**
+
 Mueve los cambios del directorio de trabajo al área del entorno de ensayo.
 
 `git add "Nombre del archivo"`
 
-De esta manera se suben los archivos de uno en uno al area de staged pero existe un comando que nos permite realizar los cambios de manera mas rapida
+De esta manera se suben los archivos de uno en uno al area de staged pero existe un 
+
+comando que nos permite realizar los cambios de manera mas rapida
 
 `git add .`
 
@@ -97,7 +105,9 @@ Nos ayudara a reescribir el ultimo commit que hicimos si es que nos equivocamos 
 
 **Punteros**
 
-Los punteros en git son como unos faros nos indicaran en que rama estamos trabajando en la terminal se encuentran a lado del directorio donde estamos trabajando
+Los punteros en git son como unos faros nos indicaran en que rama estamos trabajando en la 
+
+terminal se encuentran a lado del directorio donde estamos trabajando
 
 ## CLASE 2
 
@@ -113,6 +123,7 @@ Se podria decir que se crean diferentes copias donde el grupo de programadores
 trabajan en diferentes partes del proyecto.
 
 Las ramas nos permitiran a trabajar para resolver problemas especificos 
+
 en el proyecto.
 
 **COMANDOS CON RAMAS**
@@ -385,7 +396,9 @@ dicho de otra forma la manera que se trabajara.
 
 **Commits**
 
-Un commit debe ser redactado muy a menudo esto permite tener varios puntos de guardado lo que nos ayudara a saber mejor en que punto hubo un error y asi arreglarlo
+Un commit debe ser redactado muy a menudo esto permite tener varios puntos de guardado 
+
+lo que nos ayudara a saber mejor en que punto hubo un error y asi arreglarlo
 
 **Redactar un buen commit**
 
@@ -397,7 +410,9 @@ Un commit debe ser redactado muy a menudo esto permite tener varios puntos de gu
 
 **Nombres de ramas**
 
-Las ramas al igual que los commits deben ser claros para los que las usen procura usar nombres que describan que hace la rama
+Las ramas al igual que los commits deben ser claros para los que las usen procura usar 
+
+nombres que describan que hace la rama
 
 Para mejor entendimiento usa un nombre que explique que se arregla en la rama:
 * feature: Ramas donde se desarrolla una nueva caracteristica 
@@ -409,9 +424,11 @@ Al igual que esas existen algunas mas que ayudaran a un trabajo mas organizado.
 
 ### Deshacer cambios
 
-Deshacer cambios es una parte muy importante de un proyecto en git ya que suele pasar que realizamos algunos cambios incorrectos en 
+Deshacer cambios es una parte muy importante de un proyecto en git ya que suele pasar que 
 
-el repositorio remoto por lo que es necesario volver a un punto donde todo funcionaba.
+realizamos algunos cambios incorrectos en el repositorio remoto por lo que es necesario 
+
+volver a un punto donde todo funcionaba.
 
 Existen dos formas de deshacer cambios una son las contructivasy otras las constructivas.
 
@@ -419,11 +436,15 @@ Existen dos formas de deshacer cambios una son las contructivasy otras las const
 
 El comando git reset tiene dos versiones las cuales son:
 
-**git reset soft:** El comando nos permite regresar a un commit pasado sin deshacer los cambios actuales, los cambios posteriores al 
+**git reset soft:** El comando nos permite regresar a un commit pasado sin deshacer los 
 
-commit que nos movimos pasaran al estado staged. Ya de ahi se elige que cambios se mantienen.
+cambios actuales, los cambios posteriores al commit que nos movimos pasaran al estado staged.
 
-**git reset hard:** El comando git reset hard a diferencia del soft deshace todos los cambios hasta el commit que no moveremos. Sin posibilidad de recobrarlos.
+ Ya de ahi se elige que cambios se mantienen.
+
+**git reset hard:** El comando git reset hard a diferencia del soft deshace todos los cambios
+
+ hasta el commit que no moveremos. Sin posibilidad de recobrarlos.
 
 `git reset hard/soft <id del commit>`
 
@@ -431,7 +452,11 @@ o
 
 `git reset hard/soft HEAD~<numero de commits que retrosederemos>`
 
-**git revert:** El comando git revert realiza un proceso realizado parecido a un merge lo que hara al ejeutarlo es unir el ultimo commit con un commit que elijamos, por esa razon es muy comun tener conflictos al ejecutarlo.
+**git revert:** El comando git revert realiza un proceso realizado parecido a un merge lo que
+
+ hara al ejeutarlo es unir el ultimo commit con un commit que elijamos, por esa razon es muy
+ 
+  comun tener conflictos al ejecutarlo.
 
 `git revert <id commit>`
 
@@ -447,13 +472,15 @@ Este comando se debe ejecutar despues de resolver un conflicto para continuar co
 
 **git checkout:** 
 
-Aparte de que permite movernos entre ramas el comando git checkout nos ayudara a deshacer cambios en git
+Aparte de que permite movernos entre ramas el comando git checkout nos ayudara a deshacer cambios
 
-La estructura del comando es distinta `git checkout <id del commit>` lo que hara el comando es dirigirnos al estado de los archivos 
+en gitLa estructura del comando es distinta `git checkout <id del commit>` lo que hara el comando
+ 
+es dirigirnos al estado de los archivos hasta ese commit ya de ahi podemos elegir que cambios 
 
-hasta ese commit ya de ahi podemos elegir que cambios queriamos que se mantengan como estaban.
+queriamos que se mantengan como estaban.Despues se debe regresar a la rama donde estaba el commit,
 
-Despues se debe regresar a la rama donde estaba el commit, para aplicar los cambios.
+para aplicar los cambios.
 
 ## Clase 8
 
@@ -461,12 +488,15 @@ Despues se debe regresar a la rama donde estaba el commit, para aplicar los camb
 
 **Hooks**
 
-Un hook es realizar un sript cuando sucede una situacion en git, por ejemplo el post-commit resulta siendo un hook
+Un hook es realizar un sript cuando sucede una situacion en git, por ejemplo el post-commit resulta 
+
+siendo un hook
 
 **Alias**
 
-Alias es una manera de simplificar comandos largos, ya que generaremos un "alias"
-para ese comando en especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo
+Alias es una manera de simplificar comandos largos, ya que generaremos un "alias"para ese comando en
+ 
+especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo
 
 **Manera de crear un alias**
 
