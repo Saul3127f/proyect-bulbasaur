@@ -59,6 +59,12 @@ Este comando guadara todos los cambios hechos en los archivos del area de staged
 
 `git commit`
 
+**git commit -m**
+
+El comando nos permite escribir el mensaje del commit desde la terminal.
+
+`git commit -m "mensaje"`
+
 **git log**
 
 Comando que muestra todos los commits realizados hasta el momento.
@@ -79,12 +85,24 @@ Existe otro comando que nos permite ver una descripcion mas pequeña de un coman
 
 Este comando nos mostrara una pequeña descripcion del comando en la terminal.
 
+**git restore**
+
+El comando nos ayuda a restaurar cambios anteriores al ultimo commit.
+
+`git restore <archivo>`
+
+**git commit --amend -m "mensaje"**
+
+Nos ayudara a reescribir el ultimo commit que hicimos si es que nos equivocamos en la redaccion.
+
 **Punteros**
 
 Los punteros en git son como unos faros nos indicaran en que rama estamos trabajando en la terminal se encuentran a lado del directorio donde estamos trabajando
 
 ## CLASE 2
-**RAMAS.-**
+
+**RAMAS**
+
 Una rama es una version de la coleccion de directorios y archivos del repositorio 
 con cada rama. 
 
@@ -99,7 +117,8 @@ en el proyecto.
 
 **COMANDOS CON RAMAS**
 
-**git branch <nombre_rama>.-**
+**git branch <nombre_rama>**
+
 Ese comando nos permite crear,listar y renombrar ramas 
 
 `git branch`
@@ -238,7 +257,7 @@ horas de trabajo, por suerte git te notificara en ese caso.
 
 Github es un servicio en la nube especializado en el control de versiones
 
-de git, son completamente diferentes.
+de git, son completamente diferentes con git.
 
 **Repositorios remotos**
 
@@ -250,13 +269,15 @@ encuentran en internet.
 
 Clona un repositorio remoto y se hace una copia local del repositorio remoto.
 
+`git clone <url del repositorio remoto>`
+
 **git push**
 
 El comando nos permite subir todos los cambios que hicimos al repositorio local
 
 al repositorio remoto asi tener ambos repositorios conectados y actualizados.
 
-`git push <origin><main>`
+`git push <origin><nombredelarama>`
 
 **git branch -a**
 
@@ -266,7 +287,9 @@ El comando nos permite listar todas las ramas remotas que tenemos en un reposito
 
 Este comando forsa la actualizacion de una rama remota evitando todas las 
 
-advertencias.
+advertencias. Actualmente no es recomendado por el riesgo que conlleva su uso.
+
+`git push -f`
 
 **git push --all**
 
@@ -276,7 +299,7 @@ al repositorio remoto.
 
 **git push -u**
 
-El comando ayuda a simplificar el trabajo de maner que en el siguiente push 
+El comando ayuda a simplificar el trabajo de escribir todo el nombre de la rama ya en el siguiente push 
 
 solo ponemos git push y ya reconocera a que rama nos referimos.
 
@@ -295,12 +318,6 @@ con la ayuda del siguiente comando se podra crear la rama remota.
 `git push <origin> <nombre_rama>`
 
 >si la rama no existe de manera local existira un error
-
-**git push origin -d <nombre-rama>**
-
-El comando nos permitara eliminar ramas remotas el comando solo sirve con 
-
-ramas remotas para ramas locales existe otro comando que nos ayuda.
 
 ## CLASE 4
 
