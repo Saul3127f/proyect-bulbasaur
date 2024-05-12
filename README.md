@@ -423,7 +423,7 @@ El comando git reset tiene dos versiones las cuales son:
 
 commit que nos movimos pasaran al estado staged. Ya de ahi se elige que cambios se mantienen.
 
-**git reset hard:** El comando git reset hard a diferencia del soft deshace todos los cambios hasta el commit que no moveremos.
+**git reset hard:** El comando git reset hard a diferencia del soft deshace todos los cambios hasta el commit que no moveremos. Sin posibilidad de recobrarlos.
 
 `git reset hard/soft <id del commit>`
 
@@ -431,9 +431,29 @@ o
 
 `git reset hard/soft HEAD~<numero de commits que retrosederemos>`
 
-**git revert:** El comando git revert deshace los cambios realizados en un repositorio y crea un commit completamente nuevo de los cambios de esta manera no se altera el historial de commits del repositorio remoto grupal.
+**git revert:** El comando git revert realiza un proceso realizado parecido a un merge lo que hara al ejeutarlo es unir el ultimo commit con un commit que elijamos, por esa razon es muy comun tener conflictos al ejecutarlo.
 
-**git checkout:** Al igual que ayuda a navegar entre ramas el comando ayuda a deshacer cambios en un commit.
+`git revert <id commit>`
+
+Al aparecer un conflicto con git revert tenemos dos opciones abort y continue.
+
+**git revert abort**
+
+Cancela el revert actual
+
+**git revert continue**
+
+Este comando se debe ejecutar despues de resolver un conflicto para continuar con el revert
+
+**git checkout:** 
+
+Aparte de que permite movernos entre ramas el comando git checkout nos ayudara a deshacer cambios en git
+
+La estructura del comando es distinta `git checkout <id del commit>` lo que hara el comando es dirigirnos al estado de los archivos 
+
+hasta ese commit ya de ahi podemos elegir que cambios queriamos que se mantengan como estaban.
+
+Despues se debe regresar a la rama donde estaba el commit, para aplicar los cambios.
 
 ## Clase 8
 
