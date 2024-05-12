@@ -18,11 +18,11 @@ Un respositorio puede verse como una carpeta que almacena las diferentes version
 
 **States**
 
-Los archivos en git pasan por tres estados principales
+Los archivos en git pasan por tres estados principales:
 
-* Modified:Los archivos de un repositorio fueron modificados 
+* Modified:Los archivos de un repositorio fueron modificados.
 
-* Staged: Los archivos estan en el area de staged cuando los cambios fueron confirmados
+* Staged: Los archivos estan en el area de staged cuando los cambios fueron confirmados.
 
 * Commited: Los archivos fueron actualizados en el repositorio y se creo un commit de los cambios realizados.
 
@@ -32,7 +32,6 @@ Sirven para registrar cambios de los archivos.
 
 >Un commit es como guardar una partida en un videojuego si se equivoca se puede volver ahi
  
-
 **PRIMEROS COMANDOS**
 
 **git init**
@@ -55,11 +54,11 @@ Mueve los cambios del directorio de trabajo al área del entorno de ensayo.
 
 De esta manera se suben los archivos de uno en uno al area de staged pero existe un 
 
-comando que nos permite realizar los cambios de manera mas rapida
+comando que nos permite realizar los cambios de manera mas rapida.
 
 `git add .`
 
-Este comando subira todos los archivos que estan en el area de modified al area de staged
+Este comando subira todos los archivos que estan en el area de modified al area de staged.
 
 **git commit**
 
@@ -87,7 +86,7 @@ y poder ver todas las opciones que nos permite el comando.
 
 `git <comando> --help`
 
-Existe otro comando que nos permite ver una descripcion mas pequeña de un comando solo en la terminal
+Existe otro comando que nos permite ver una descripcion mas pequeña de un comando solo en la terminal.
 
 `git <comando> -h`
 
@@ -107,14 +106,13 @@ Nos ayudara a reescribir el ultimo commit que hicimos si es que nos equivocamos 
 
 Los punteros en git son como unos faros nos indicaran en que rama estamos trabajando en la 
 
-terminal se encuentran a lado del directorio donde estamos trabajando
+terminal se encuentran a lado del directorio donde estamos trabajando.
 
 ## CLASE 2
 
 **RAMAS**
 
-Una rama es una version de la coleccion de directorios y archivos del repositorio 
-con cada rama. 
+Una rama es una version de la coleccion de directorios y archivos del repositorio con cada rama 
 
 se crea una copia de la coleccion de archivos actual.
 
@@ -130,15 +128,13 @@ en el proyecto.
 
 **git branch <nombre_rama>**
 
-Ese comando nos permite crear,listar y renombrar ramas 
+Ese comando nos permite crear,listar y renombrar ramas.
 
 `git branch`
 
-Ejecutando el comando sin ningun nombre de rama se puede
+Ejecutando el comando sin ningun nombre de rama se puede acceder a ver todas las ramas en el 
 
-acceder a ver todas las ramas en el repositorio y ver en
-
-cual nos encontramos ubicados.
+repositorio y ver en cual nos encontramos ubicados.
 
 **git switch <nombre-rama>**
 
@@ -344,7 +340,17 @@ de ese repositorio remoto y actualizar nuestro repositorio local.
 
 >el contenido de la rama principal y con un git merge las fusionara.
 
-Los comandos con git pull son similares a git push ya que trabajan de manera identica ambos
+**git fetch**
+
+El comando git fetch es similar al comando git pull, descarga el contenido de un repositorio
+
+remoto, pero la principal diferencia entre ambos es que el git pull descargara todo y hara que 
+
+el repositorio local sea identico al repositorio remoto, en cambio el git fetch solo descargara cambios
+
+sin modificar el repositorio local.
+
+Los comandos con git pull son similares a git push ya que trabajan de manera identica ambos.
 
 **git pull --all**
 
@@ -354,8 +360,9 @@ El comando actualiza el repositorio local siendo similar al repositorio remoto.
 
 **git pull -f**
 
-Como git push -f el comando forsara todos los cambios para que el repositorio local sea identico al repositorio remoto
-al igual que git push el comando no es recomendado por el riesgo que conlleva.
+Como git push -f el comando forsara todos los cambios para que el repositorio local sea identico 
+
+al repositorio remoto al igual que git push el comando no es recomendado por el riesgo que conlleva.
 
 `git pull -f`
 
@@ -384,7 +391,7 @@ dicho de otra forma la manera que se trabajara.
 
 * gitflow.-Gitflow es un flujo de trabajo enfocado principalmente en el desarrollo bien organizado en ramas especializadas.
 * github flow.- Se centra en el uso de pull request para un mejor desarrollo y se permite trabajar en cuantas ramas se pueda.
-* Trunk Based Development.- Se trata de un flujo de trabajo que trabaja principalmente en la rama main siendo pocas las veces que opta .por crear ramas auxiliares.
+* Trunk Based Development.- Se trata de un flujo de trabajo que trabaja principalmente en la rama main siendo pocas las veces que opta por crear ramas auxiliares.
 * Ship / Show / Ask.- Esta compuesta por tres partes las cuales estan en el nombre:
     * Ship.- Sube los cambios a la rama main sin consultarlo.
     * Show.- Se crea una pull request y se revisa antes de fusionar los cambios con el main.
@@ -398,25 +405,25 @@ dicho de otra forma la manera que se trabajara.
 
 Un commit debe ser redactado muy a menudo esto permite tener varios puntos de guardado 
 
-lo que nos ayudara a saber mejor en que punto hubo un error y asi arreglarlo
+lo que nos ayudara a saber mejor en que punto hubo un error y asi arreglarlo.
 
 **Redactar un buen commit**
 
-* Procurar escribir con verbos en imperativo
-* No usar punto final ni puntos suspencivos
-* Usar menos de 50 caracteres(ser lo mas breves posibles)
+* Procurar escribir con verbos en imperativo.
+* No usar punto final ni puntos suspencivos.
+* Usar menos de 50 caracteres(ser lo mas breves posibles).
 * Usa una semantica especial para commits:
-  * fix:(tipo del cambio) se arreglo un bug(Descripcion del cambio) 
+  * fix:(tipo del cambio) se arreglo un bug(Descripcion del cambio). 
 
 **Nombres de ramas**
 
 Las ramas al igual que los commits deben ser claros para los que las usen procura usar 
 
-nombres que describan que hace la rama
+nombres que describan que hace la rama.
 
 Para mejor entendimiento usa un nombre que explique que se arregla en la rama:
-* feature: Ramas donde se desarrolla una nueva caracteristica 
-* hotfix: Rama donde se arreglas errores criticos
+* feature: Ramas donde se desarrolla una nueva caracteristica.
+* hotfix: Rama donde se arreglas errores criticos.
 * bug: Rama donde se cambia el codigo fuente para arreglar bugs.
 Al igual que esas existen algunas mas que ayudaran a un trabajo mas organizado.
 
@@ -464,11 +471,11 @@ Al aparecer un conflicto con git revert tenemos dos opciones abort y continue.
 
 **git revert abort**
 
-Cancela el revert actual
+Cancela el revert actual.
 
 **git revert continue**
 
-Este comando se debe ejecutar despues de resolver un conflicto para continuar con el revert
+Este comando se debe ejecutar despues de resolver un conflicto para continuar con el revert.
 
 **git checkout:** 
 
@@ -490,17 +497,17 @@ para aplicar los cambios.
 
 Un hook es realizar un sript cuando sucede una situacion en git, por ejemplo el post-commit resulta 
 
-siendo un hook
+siendo un hook.
 
 **Alias**
 
 Alias es una manera de simplificar comandos largos, ya que generaremos un "alias"para ese comando en
- 
-especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo
+
+especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo.
 
 **Manera de crear un alias**
 
-La manera de crear un alias es ejecutando un comando en la terminal
+La manera de crear un alias es ejecutando un comando en la terminal.
 
 `git config --global alias.<alias> <comando que remplazara>`
 
@@ -515,5 +522,5 @@ Algunos comandos pueden romar otra forma y facilitarnos las cosas en nuestro tra
 * Guardar cambios temporales: `git stach`
 * Aplicar cambios a un commit: `git cherry-pick <SHA>`
 --
-Fin del curso de git
+Fin del curso de git.
 --
