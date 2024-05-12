@@ -459,14 +459,22 @@ Despues se debe regresar a la rama donde estaba el commit, para aplicar los camb
 
 ### Hocks, alias y trucos de git
 
-**Hocks**
+**Hooks**
 
-Un hock es una posibilidad de realizar un script en un momento determinado de git
+Un hook es realizar un sript cuando sucede una situacion en git, por ejemplo el post-commit resulta siendo un hook
 
 **Alias**
 
 Alias es una manera de simplificar comandos largos, ya que generaremos un "alias"
 para ese comando en especial asi ya no escribiremos tantos mas al contrario nos ahorraremos un monton de tiempo
+
+**Manera de crear un alias**
+
+La manera de crear un alias es ejecutando un comando en la terminal
+
+`git config --global alias.<alias> <comando que remplazara>`
+
+De esa manera la siguiente ves que ejecutemos el alias realizara su trabajo.
 
 **Trucos de git**
 
@@ -476,3 +484,6 @@ Algunos comandos pueden romar otra forma y facilitarnos las cosas en nuestro tra
 * Cambiar el nombre a un commit existente: `git commit --amend -m <descripcion commit>`
 * Guardar cambios temporales: `git stach`
 * Aplicar cambios a un commit: `git cherry-pick <SHA>`
+--
+Fin del curso de git
+--
