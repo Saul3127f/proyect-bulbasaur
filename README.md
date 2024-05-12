@@ -333,6 +333,21 @@ de ese repositorio remoto y actualizar nuestro repositorio local.
 
 >el contenido de la rama principal y con un git merge las fusionara.
 
+Los comandos con git pull son similares a git push ya que trabajan de manera identica ambos
+
+**git pull --all**
+
+El comando actualiza el repositorio local siendo similar al repositorio remoto.
+
+`git pull --all`
+
+**git pull -f**
+
+Como git push -f el comando forsara todos los cambios para que el repositorio local sea identico al repositorio remoto
+al igual que git push el comando no es recomendado por el riesgo que conlleva.
+
+`git pull -f`
+
 **pull request**
 
 El git request es una funcionalidad de github la cual permite revisar los cambios realizados
